@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashraf.receiver.Login.GoogleSigninFragment.GoobleSigninFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/user"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:id="@+id/userPhotoCircleImageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/userPhotoCircleImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashraf Atef"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"
+        android:id="@+id/usernameTextview"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_20sp"
+        android:fontFamily="serif"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="88dp"
+        android:id="@+id/continueButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_20sp"
+        android:fontFamily="serif"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"
+        android:id="@+id/backButton"
+        android:layout_alignBaseline="@+id/continueButton"
+        android:layout_alignBottom="@+id/continueButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+</RelativeLayout>
